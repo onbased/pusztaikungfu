@@ -17,15 +17,35 @@ theme = "hugo-theme-chunky-poster"
     url = "/"
     weight = 10
   [[menu.main]]
-    identifier = "projects"
-    name = "Projects"
-    url = "/"
+    identifier = "bio"
+    name = "Bio"
+    url = "/about/"
     weight = 12
   [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
+    identifier = "wingtsun"
+    name = "Wing Tsun"
+    url = "/wingtsun/"
+    weight = 13
+
+  [[menu.main]]
+    identifier = "masters"
+    name = "Mesterek"
+    url = "/masters/"
+    weight = 14
+
+
+  [[menu.main]]
+    identifier = "styles"
+    name = "Iskolák"
+    url = "/styles/"
+    weight = 15
+
+  [[menu.main]]
+    identifier = "media"
+    name = "Média"
+    url = "/media/"
     weight = 0
+
 
 [taxonomies]
 category = "categories"
@@ -36,10 +56,10 @@ author = "authors"
 [params]
   author = "Csaba Pusztai"
   description = "This my awesome motto!"
-  homepageImage = "/images/csabi.png"
+  homepageImage = "/images/csabi.jpg"
   share = true
   showLanguageSwitcher = false
-
+  text = "Lorem ipsum dolor sit amet, et essent mediocritatem quo, choro volumus oporteat an mei. Numquam dolores mel eu, mea docendi omittantur et, mea ea duis erat. Elit melius cu ius. Per ex novum tantas putant, ei his nullam aliquam apeirian. Aeterno quaestio constituto sea an, no eum intellegat assueverit. "
   # Custom CSS and JS. Relative to /static/css and /static/js respectively.
   customCSS = []
   customJS = []

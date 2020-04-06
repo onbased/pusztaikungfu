@@ -1,10 +1,13 @@
 .homepage-image {
     @include media-breakpoint-up(lg) {
         position: absolute;
-        width: 400px;
         right: 100px;
         top: 0;
     }
+    
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        text-align: center;
+    
 }
 
 .author .name a, .author .social a {
